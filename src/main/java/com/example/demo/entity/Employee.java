@@ -16,7 +16,7 @@ import lombok.Data;
 @Entity
 @Table(name="tbl_notes")
 @Data
-public class Note {
+public class Employee {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
